@@ -113,7 +113,7 @@ def envia_email(html):
     html_email = MIMEText(html, 'html', "utf-8")
 
     msgRoot.attach(html_email)
-    smtp.sendmail("root@vmi232710.contaboserver.net", "robson.koji@gmail.com", msgRoot.as_string())
+    smtp.sendmail("sf@b3ircalc.online", "robson.koji@gmail.com", msgRoot.as_string())
 
 
 if __name__ == '__main__':
